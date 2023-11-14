@@ -1,4 +1,4 @@
-As a part of prerequisites, I have downloaded curl,docker,docker-compose,git and python3 on my ubuntu machine inside VMWare workstation by performing below commands : 
+As a part of prerequisites, I have downloaded curl,docker,docker-compose and git on my ubuntu machine inside VMWare workstation by performing below commands : 
 
 1.To Download curl : -
 sudo apt update
@@ -30,14 +30,6 @@ sudo apt update
 sudo apt install git
 
 >> To check the downloaded version of git : git --version
-
-===========
-
-5.To Download python3 : - 
-sudo apt update
-sudo apt install python3
-
->> To check the downloaded version of python3 : python3 --version
 
 
 =======================================================
