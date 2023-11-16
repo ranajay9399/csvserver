@@ -1,7 +1,9 @@
 As a part of prerequisites, I have downloaded curl,docker,docker-compose and git on my ubuntu machine inside VMWare workstation by performing below commands : 
 
 1.To Download curl : -
-$sudo apt update
+
+$sudo apt update ;
+
 $sudo apt install curl
 
 >> To check the downloaded version of curl : $curl --version 
@@ -9,7 +11,9 @@ $sudo apt install curl
 ===========
 
 2.To Download docker : -
-$sudo apt update
+
+$sudo apt update;
+
 $sudo apt install docker.io
 
 >> To check the downloaded version of docker : $docker --version
@@ -17,8 +21,11 @@ $sudo apt install docker.io
 ===========
 
 3.To Download docker-compose : -
-$sudo apt update
-$sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+$sudo apt update;
+
+$sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose;
+
 $sudo chmod +x /usr/local/bin/docker-compose
 
 >> To check the downloaded version of docker-compose : docker-compose --version
@@ -26,7 +33,9 @@ $sudo chmod +x /usr/local/bin/docker-compose
 ===========
 
 4.To Download git : - 
-$sudo apt update
+
+$sudo apt update;
+
 $sudo apt install git
 
 >> To check the downloaded version of git : $git --version
