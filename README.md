@@ -1,35 +1,35 @@
 As a part of prerequisites, I have downloaded curl,docker,docker-compose and git on my ubuntu machine inside VMWare workstation by performing below commands : 
 
 1.To Download curl : -
-sudo apt update
-sudo apt install curl
+$sudo apt update
+$sudo apt install curl
 
->> To check the downloaded version of curl : curl --version 
+>> To check the downloaded version of curl : $curl --version 
 
 ===========
 
 2.To Download docker : -
-sudo apt update
-sudo apt install docker.io
+$sudo apt update
+$sudo apt install docker.io
 
->> To check the downloaded version of docker : docker --version
+>> To check the downloaded version of docker : $docker --version
 
 ===========
 
 3.To Download docker-compose : -
-sudo apt update
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+$sudo apt update
+$sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+$sudo chmod +x /usr/local/bin/docker-compose
 
 >> To check the downloaded version of docker-compose : docker-compose --version
 
 ===========
 
 4.To Download git : - 
-sudo apt update
-sudo apt install git
+$sudo apt update
+$sudo apt install git
 
->> To check the downloaded version of git : git --version
+>> To check the downloaded version of git : $git --version
 
 
 =======================================================
